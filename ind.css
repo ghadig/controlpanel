@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color:#cedffb;
+}
+p {
+  color: navy;
+  text-indent: 30px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 10;
+  margin-right: 10;
+}
+
+
+input {
+	margin-right:50;
+    margin: .4rem;
+	 padding: 2;
+}
+div.motor {
+	margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 10;
+  margin-right: 30;
+  padding: 50;
+  width: 500px;
+  margin: auto;
+  
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+
+.save {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #04236e;
+    height: 25px; 
+  width: 50px;
+}
+
+.save:hover {
+  background-color: #04236e;
+  color: white;
+}
+
+.on {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #04236e;
+    height: 25px; 
+  width: 50px;
+
+}
+
+.on:hover {
+  background-color: #04236e;
+  color: white;
+}
+

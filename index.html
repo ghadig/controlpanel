@@ -1,0 +1,103 @@
+<html>
+<link rel="icon" type="controlpanel/JPG" href="iconn.jpg">
+<head>
+<meta charset="UTF-8"><!-- to write in arabic-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- gives the browser instructions
+ on how to control the page's dimensions and scaling-->
+ <link rel="stylesheet" href="ind.css">
+ <title>CONTROL PANEL</title>
+ <head>
+ <body> 
+     <center><p style="color:navy"><h2>Control Panel:- </h2></p></center>
+   <form action="connect.php" method="post" name="form1"><!-- link to php-->
+  <div class="motor"> <span id="rangeValue">0</span>
+          <label class="lab" for="volume" name="motor11">motor1: </label>
+        <Input class="range" type="range" name="motor1" value="0" min="0" max="180" 
+		onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)">
+		
+        
+ <br>
+		 <span id="rangeValue2">0</span>
+		 <label class="lab" for="volume" name="motor22">motor2: </label>
+        <Input class="range" type="range" name="motor2" value="0" min="0" max="180" 
+		onChange="rangeSlide2(this.value)" onmousemove="rangeSlide2(this.value)">
+		
+ <br>
+         <span id="rangeValue3">0</span>
+        <label  class="lab" for="volume" name="motor33">motor3: </label>
+        <Input class="range" type="range" name="motor3" value="0" min="0" max="180" 
+		onChange="rangeSlide3(this.value)" onmousemove="rangeSlide3(this.value)">
+		
+      
+		 
+ <br>
+		 <span id="rangeValue4">0</span>
+		   <label class="lab" for="volume" name="motor44">motor4:</label>
+        <Input class="range" type="range" name="motor4" value="0" min="0" max="180" 
+		onChange="rangeSlide4(this.value)" onmousemove="rangeSlide4(this.value)">
+		
+         
+		 
+ <br>
+		 <span id="rangeValue5" >0</span>
+        <label class="lab" for="volume" name="motor55">motor5: </label>
+        <Input class="range" type="range" name="motor5" value="0" min="0" max="180" 
+		onChange="rangeSlide5(this.value)" onmousemove="rangeSlide5(this.value)">
+	
+        
+		  <br>
+		<span id="rangeValue6" >0</span>
+        <label for="volume" name="motor66">motor6: </label>
+        <Input class="range" type="range" name="motor6" value="0" min="0" max="180" 
+		onChange="rangeSlide6(this.value)" onmousemove="rangeSlide6(this.value)">
+	
+        
+		 </div>
+		 <!--************************************************************************************-->
+		 <script type="text/javascript">
+        function rangeSlide(value) {
+            document.getElementById('rangeValue').innerHTML = value;
+        }
+    </script>
+	<!--************************************88-->
+      <script type="text/javascript">
+        function rangeSlide2(value) {
+            document.getElementById('rangeValue2').innerHTML = value;
+        }
+    </script>
+	<!--************************************88-->
+      <script type="text/javascript">
+        function rangeSlide3(value) {
+            document.getElementById('rangeValue3').innerHTML = value;
+        }
+    </script>
+	<!--************************************88-->
+      <script type="text/javascript">
+        function rangeSlide4(value) {
+            document.getElementById('rangeValue4').innerHTML = value;
+        }
+    </script>
+	<!--************************************88-->
+     <script type="text/javascript">
+        function rangeSlide5(value) {
+            document.getElementById('rangeValue5').innerHTML = value;
+        }
+    </script>
+	<!--************************************88-->
+     <script type="text/javascript">
+        function rangeSlide6(value) {
+            document.getElementById('rangeValue6').innerHTML = value;
+        }
+    </script>
+	<br>
+	<br><center>
+	    <input  class="save" type="submit" value = "Save" name =" save" > 
+		
+		<input  class="on" type="submit" value = "on"name = "run"	style="margin:5px;">
+     </form>
+ </center>
+
+	
+	
+</body>
+</html>
